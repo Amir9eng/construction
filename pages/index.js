@@ -30,6 +30,113 @@ export default function Home () {
             />
           </div>
         </nav>
+        <div className={`${styles.construction}`}>
+          <div className={`pl-[179px] pt-[93px] ${styles.description}`}>
+            <h1 className='text-5xl font-semibold pl-[28px] text-white border-l-[6px]  border-yellow-500'>
+              Construction
+            </h1>
+            <p className='text-white w-2/3'>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis
+              egestas pellentesque libero dolor in diam consequat ut. Mi nibh
+              amet viverra id aliquet neque odio.
+            </p>
+            <button className={styles.work}>VIEW OUR WORK</button>
+          </div>
+          <div className='bg-yellow-500 px-8 py-10'>
+            <h1 className='text-2xl font-bold mt-2'>Our Services</h1>
+            <div className='flex gap-x-6 my-4'>
+              <Image
+                width={54.04}
+                height={53}
+                alt='subtract'
+                src='/vectors/building.svg'
+              />
+              <div>
+                <h2 className='font-bold'>Building Construction</h2>
+                <p className='text-white'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+            <div className='flex gap-x-6 my-4'>
+              <Image
+                width={58}
+                height={51.5}
+                alt='foundation'
+                src='/vectors/foundation.svg'
+              />
+              <div>
+                {' '}
+                <h2 className='font-bold'>Foundation Work</h2>
+                <p className='text-white'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+            <div className='flex gap-x-6 my-4'>
+              {' '}
+              <Image
+                width={54}
+                height={51.5}
+                alt='site'
+                src='/vectors/site.svg'
+              />
+              <div>
+                <h2 className='font-bold'>Site Management</h2>
+                <p className='text-white'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='flex justify-around my-6'>
+          <p className='text-3xl font-bold'>Get a Quote For Your Project</p>
+          <button className='border-4 border-yellow-500 px-4 py-2 '>
+            FREE QUOTE
+          </button>
+        </div>
+        <div className={`${styles.project}`}>
+          <Image
+            className=''
+            width={440}
+            height={730}
+            alt='cart'
+            src='/media/Project.png'
+          />
+          <div className='p-8 bg-gray-200'>
+            <p className='text-2xl font-bold'>
+              No Project Too Big Or Too Small
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien,
+              dignissim tristique tellus sed faucibus nullam. Tincidunt mauris
+              ut quam sed mauris proin feugiat. Scelerisque lorem posuere
+              iaculis nunc amet phasellus. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Sapien, dignissim tristique tellus
+              sed faucibus nullam.{' '}
+            </p>
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien,
+                dignissim tristique tellus sed faucibus nullam. Tincidunt mauris
+                ut quam sed mauris proin feugiat. Scelerisque lorem posuere
+                iaculis nunc amet phasellus.
+              </p>
+              <button>Learn More</button>
+            </div>
+            <div>
+              <div>
+                <p>12</p>
+                <p>YEARS ESTABLISHED</p>
+              </div>
+              <div>
+                <p>250</p>
+                <p>COMPLETED PROJECTS</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
       <footer className='flex bg-white'>
         <div className='pl-10 pr-28 w-1/2 bg-yellow-500 '>
