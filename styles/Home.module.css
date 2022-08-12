@@ -26,7 +26,6 @@
 .project {
     display: grid;
     grid-template-columns: 25% auto;
-    grid-gap: 7rem;
 }
 
 .code {
@@ -34,7 +33,17 @@
     border-radius: 5px;
     padding: 0.75rem;
     font-size: 1.1rem;
-    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+    font-family: "Rubik", sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    /* grid-template-columns: auto auto; */
+}
+
+.accordion {
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+    overflow: hidden;
 }
 
 .grid {
