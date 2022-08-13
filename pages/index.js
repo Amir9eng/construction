@@ -272,17 +272,110 @@ export default function Home () {
         </section>
         <section>
           <div>
-            <p>Client Testimonials</p>
-            <aside>
-              <Image
-                alt='start'
-                width={26}
-                height={26}
-                src='/vector/Star.png'
-              />
-            </aside>
-            <aside></aside>
-            <aside></aside>
+            <p className='text-center text-black text-3xl font-bold my-8'>
+              Client Testimonials
+            </p>
+            <div className='flex items-center justify-center gap-x-6'>
+              <aside className='w-[311px] h-[305px]'>
+                <div className='flex items-center justify-center my-4'>
+                  <Image
+                    alt='start'
+                    width={26}
+                    height={26}
+                    src='/vectors/Star.svg'
+                  />
+                  <Image
+                    alt='start'
+                    width={26}
+                    height={26}
+                    src='/vectors/Star.svg'
+                  />
+                  <Image
+                    alt='start'
+                    width={26}
+                    height={26}
+                    src='/vectors/Star.svg'
+                  />
+                  <Image
+                    alt='start'
+                    width={26}
+                    height={26}
+                    src='/vectors/Star.svg'
+                  />
+                </div>
+                <p className='text-gray-500 px-6'>
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sapien, dignissim tristique tellus sed faucibus nullam.”
+                </p>
+                <p>John Smith</p>
+              </aside>
+              <aside className='w-[311px] h-[305px]'>
+                <div className='flex items-center justify-center my-4'>
+                  <Image
+                    alt='start'
+                    width={26}
+                    height={26}
+                    src='/vectors/Star.svg'
+                  />
+                  <Image
+                    alt='start'
+                    width={26}
+                    height={26}
+                    src='/vectors/Star.svg'
+                  />
+                  <Image
+                    alt='start'
+                    width={26}
+                    height={26}
+                    src='/vectors/Star.svg'
+                  />
+                  <Image
+                    alt='start'
+                    width={26}
+                    height={26}
+                    src='/vectors/Star.svg'
+                  />
+                </div>
+                <p className='text-gray-500 px-6'>
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sapien, dignissim tristique tellus sed faucibus nullam.”
+                </p>
+                <p>John Smith</p>
+              </aside>
+              <aside className='w-[311px] h-[305px]'>
+                <div className='flex items-center justify-center my-4x'>
+                  <Image
+                    alt='start'
+                    width={26}
+                    height={26}
+                    src='/vectors/Star.svg'
+                  />
+                  <Image
+                    alt='start'
+                    width={26}
+                    height={26}
+                    src='/vectors/Star.svg'
+                  />
+                  <Image
+                    alt='start'
+                    width={26}
+                    height={26}
+                    src='/vectors/Star.svg'
+                  />
+                  <Image
+                    alt='start'
+                    width={26}
+                    height={26}
+                    src='/vectors/Star.svg'
+                  />
+                </div>
+                <p className='text-gray-500 px-6'>
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sapien, dignissim tristique tellus sed faucibus nullam.”
+                </p>
+                <p>John Smith</p>
+              </aside>
+            </div>
           </div>
           <div></div>
         </section>
