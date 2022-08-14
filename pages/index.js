@@ -307,7 +307,7 @@ export default function Home () {
                   “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Sapien, dignissim tristique tellus sed faucibus nullam.”
                 </p>
-                <p>John Smith</p>
+                <p className='ml-6 mt-4'>John Smith</p>
               </aside>
               <aside className='w-[311px] h-[305px]'>
                 <div className='flex items-center justify-center my-4'>
@@ -340,10 +340,10 @@ export default function Home () {
                   “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Sapien, dignissim tristique tellus sed faucibus nullam.”
                 </p>
-                <p>John Smith</p>
+                <p className='ml-6 mt-4'>John Smith</p>
               </aside>
               <aside className='w-[311px] h-[305px]'>
-                <div className='flex items-center justify-center my-4x'>
+                <div className='flex items-center justify-center my-4'>
                   <Image
                     alt='start'
                     width={26}
@@ -373,14 +373,21 @@ export default function Home () {
                   “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Sapien, dignissim tristique tellus sed faucibus nullam.”
                 </p>
-                <p>John Smith</p>
+                <p className='ml-6 mt-4'>John Smith</p>
               </aside>
             </div>
           </div>
-          <div></div>
+          <div className='flex items-center justify-center my-10'>
+            <Image
+              alt='Clients'
+              width={1048}
+              height={240}
+              src='/media/Clients.png'
+            />
+          </div>
         </section>
       </main>
-      <footer className='flex bg-white'>
+      <footer className='flex bg-white my-4'>
         <div className='pl-10 pr-28 w-[55%] bg-yellow-500 '>
           <p className='text-2xl font-bold mt-6 mb-8'>Contact Us</p>
           <input
@@ -464,7 +471,7 @@ export default function Home () {
                 alt='mail'
                 src='/vectors/mail.svg'
               />
-              <p>constractioninc@gmail.com</p>
+              <p>constructioninc@gmail.com</p>
             </div>
           </div>
         </div>
