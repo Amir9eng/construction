@@ -387,7 +387,7 @@ export default function Home () {
           </div>
         </section>
       </main>
-      <footer className='flex bg-white my-4'>
+      <footer className='flex bg-white my-8'>
         <div className='pl-10 pr-28 w-[55%] bg-yellow-500 '>
           <p className='text-2xl font-bold mt-6 mb-8'>Contact Us</p>
           <input
