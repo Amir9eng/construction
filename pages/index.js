@@ -2,8 +2,10 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import Accordion from '../components/Accordion'
-// import Footer from '../components/Footer'
 import Footer from './../components/Footer'
+import Navbar from './../components/Navbar'
+import Project from '../components/Project'
+import Title from '../components/Title'
 
 export default function Home () {
   return (
@@ -14,26 +16,7 @@ export default function Home () {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main>
-        <nav className='flex justify-between my-8 font-medium'>
-          <h2>Construction Company</h2>
-          <div className='flex gap-x-6 text-sm'>
-            <p>Project</p>
-            <p>Blog</p>
-            <p>Portfolio</p>
-            <p>Service</p>
-            <p>Services</p>
-            <p>Contact</p>
-            <p>About</p>
-            <p>Home</p>
-            <Image
-              className=''
-              width={24}
-              height={24}
-              alt='cart'
-              src='/media/cart3.svg'
-            />
-          </div>
-        </nav>
+        <Navbar />
         <div className={`${styles.construction}`}>
           <div className={`pl-[179px] pt-[93px] ${styles.description}`}>
             <h1 className='text-5xl font-semibold pl-[28px] text-white border-l-[6px]  border-yellow-500'>
@@ -125,7 +108,7 @@ export default function Home () {
                 </p>
               </div>
               <div>
-                <p className='block text-gray-400 leading-7 mt-24'>
+                <p className='block text-gray-400 leading-7 mt-32 mr-12'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Sapien, dignissim tristique tellus sed faucibus nullam.
                   Tincidunt mauris ut quam sed mauris proin feugiat. Scelerisque
@@ -148,73 +131,8 @@ export default function Home () {
             </div>
           </div>
         </div>
-        <p className='text-3xl text-center font-bold mt-14 block'>
-          Latest Projects
-        </p>
-        <section className='flex w-[1000px] mx-auto my-0'>
-          <div className='w-[295px] p-12 mx-auto my-0'>
-            <Image
-              className=''
-              width={293}
-              height={182}
-              alt='facebook'
-              src='/media/bridge.png'
-            />
-            <div className='py-4 border-gray-300 border-2 px-4 mt-2'>
-              <p className='my-6'>Project Title</p>
-              <p className='my-4 text-gray-500'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et
-                euismod bibendum adipiscing et orci, fermentum. Cras tristique
-                viverra gravida et sit egestas.
-              </p>
-
-              <button className='border-gray-500 border-2 px-4 mt-6'>
-                VIEW PROJECT
-              </button>
-            </div>
-          </div>
-
-          <div className='w-[295px] p-12 mx-auto my-0'>
-            <Image
-              className=''
-              width={293}
-              height={182}
-              alt='facebook'
-              src='/media/sky.png'
-            />
-            <div className='py-4 border-gray-300 border-2 px-4 mt-2'>
-              <p className='my-6'>Project Title</p>
-              <p className='my-4 text-gray-500'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et
-                euismod bibendum adipiscing et orci, fermentum. Cras tristique
-                viverra gravida et sit egestas.
-              </p>
-              <button className='border-gray-500 border-2 px-4 mt-6'>
-                VIEW PROJECT
-              </button>
-            </div>
-          </div>
-          <div className='w-[295px] p-12 mx-auto my-0'>
-            <Image
-              className=''
-              width={293}
-              height={182}
-              alt='facebook'
-              src='/media/sketch.png'
-            />
-            <div className='py-4 border-gray-300 border-2 px-4 mt-2'>
-              <p className='my-6'>Project Title</p>
-              <p className='my-4 text-gray-500'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et
-                euismod bibendum adipiscing et orci, fermentum. Cras tristique
-                viverra gravida et sit egestas.
-              </p>
-              <button className='border-gray-500 border-2 px-4 mt-6'>
-                VIEW PROJECT
-              </button>
-            </div>
-          </div>
-        </section>
+        <Title title={'Latest Projects'} />
+        <Project title={'Project Title'} />
         <div className='flex items-center'>
           <button className='mx-auto my-0 border-black border-2 w-[150px] h-[32px]'>
             VIEW ALL
