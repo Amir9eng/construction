@@ -23,6 +23,10 @@
     background: rgba(29, 28, 28, 0.9) url("/media/caterpillar.png");
 }
 
+.monarch {
+    background: rgba(29, 28, 28, 0.9) url("/media/monarch.png");
+}
+
 .project {
     display: grid;
     grid-template-columns: 25% auto;
