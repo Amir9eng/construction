@@ -1,12 +1,13 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 export default function Navbar () {
   return (
     <nav className='flex justify-between my-8 font-medium px-6'>
-      <h2>Construction Company</h2>
+      <Link href='/'>Construction Company</Link>
       <div className='flex gap-x-6 text-sm'>
-        <p>Project</p>
+        <Link href='/Projects'>Project</Link>
         <p>Blog</p>
         <p>Portfolio</p>
         <p>Service</p>
