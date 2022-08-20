@@ -16,7 +16,7 @@ export default function Home () {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Navbar />
-      <div className={`${styles.construction}`}>
+      <section className={`${styles.construction}`}>
         <div className={`pl-[179px] pt-[93px] ${styles.description}`}>
           <h1 className='text-5xl font-semibold pl-[28px] text-white border-l-[6px]  border-yellow-500'>
             Construction
@@ -75,7 +75,7 @@ export default function Home () {
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <main className={styles.main}>
         <div className='flex justify-around my-6'>
           <p className='text-3xl font-bold'>Get a Quote For Your Project</p>
@@ -91,14 +91,15 @@ export default function Home () {
             alt='cart'
             src='/media/Project.png'
           />
-          <div className='bg-gray-200 h-full'>
+          <div className='bg-gray-100'>
             <div className='flex'>
               <div className='py-6 px-10'>
                 <p className='text-3xl font-bold my-4 ml-8'>
                   No Project Too Big Or Too Small
                 </p>
+                <div className='h-1 bg-yellow-500 w-[3rem] my-6 ml-8'></div>
 
-                <p className='block text-gray-400 w-3/5 leading-7 ml-8 my-12 '>
+                <p className='block text-gray-400 w-3/5 leading-7 ml-8 my-10 '>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Sapien, dignissim tristique tellus sed faucibus nullam.
                   Tincidunt mauris ut quam sed mauris proin feugiat. Scelerisque
@@ -108,13 +109,13 @@ export default function Home () {
                 </p>
               </div>
               <div>
-                <p className='block text-gray-400 leading-7 mt-32 mr-12'>
+                <p className='block text-gray-400 leading-7 mt-36 mr-12'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Sapien, dignissim tristique tellus sed faucibus nullam.
                   Tincidunt mauris ut quam sed mauris proin feugiat. Scelerisque
                   lorem posuere iaculis nunc amet phasellus.
                 </p>
-                <button className='my-6 border-black border-2 py-2 px-4'>
+                <button className='mt-6 border-black border-2 py-2 px-4'>
                   Learn More
                 </button>
               </div>
