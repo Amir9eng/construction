@@ -6,6 +6,7 @@ import Footer from './../components/Footer'
 import Navbar from './../components/Navbar'
 import Project from '../components/Project'
 import Title from '../components/Title'
+import Button from '../components/Button'
 
 export default function Home () {
   return (
@@ -134,16 +135,13 @@ export default function Home () {
         </div>
         <Title title={'Latest Projects'} />
         <Project title={'Project Title'} />
-        <div className='flex items-center'>
-          <button className='mx-auto my-0 border-black border-2 w-[150px] h-[32px]'>
-            VIEW ALL
-          </button>
-        </div>
+        <Button />
         <section className='flex mt-6'>
           <div className='w-[440px] bg-black text-white py-12 px-8'>
             <p className='text-3xl font-bold'>
               We’ve Been Building For Over 10 Years
             </p>
+            <div className='h-1 bg-yellow-500 w-[3.2rem] my-8'></div>
             <p className='my-8 leading-[27px] w-[200]'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien,
               dignissim tristique tellus sed faucibus nullam. Tincidunt mauris
