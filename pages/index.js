@@ -80,7 +80,7 @@ export default function Home () {
       <main className={styles.main}>
         <div className='flex justify-around my-6'>
           <p className='text-3xl font-bold'>Get a Quote For Your Project</p>
-          <button className='border-4 border-yellow-500 px-4 py-2 '>
+          <button className='border-4 border-yellow-500 text-yellow-500 px-6 py-2 '>
             FREE QUOTE
           </button>
         </div>
