@@ -12,7 +12,7 @@ const AccordionUI = ({ title, children, Id, Index, setIndex }) => {
   }
 
   return (
-    <div className='w-[694px] px-6 ml-12 '>
+    <div className='w-[600px] px-6 ml-6 '>
       <div
         onClick={() => handleSetIndex(Id)}
         className='flex group cursor-pointer w-3/4  h-16 justify-between items-center mt-2 rounded-md bg-white'
@@ -30,7 +30,7 @@ const AccordionUI = ({ title, children, Id, Index, setIndex }) => {
       </div>
 
       {Index === Id && (
-        <div className='font-semibold w-3/4 h-auto rounded-md border-l-2 mb-2 '>
+        <div className='font-semibold w-3/5 h-auto rounded-md border-l-2 mb-2 '>
           {children}
         </div>
       )}

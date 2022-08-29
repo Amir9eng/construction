@@ -12,7 +12,7 @@ export default function Navbar () {
         <Link href='/Portfolio'>Portfolio</Link>
         <Link href='/Service'>Service</Link>
         <Link href='/Services'>Services</Link>
-        <p>Contact</p>
+        <Link href='/Contact'>Contact</Link>
         <p>About</p>
         <p>Home</p>
         <Image
