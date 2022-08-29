@@ -1,11 +1,12 @@
 import React from 'react'
 
-const SideBar = () => {
+const SideBar = (props) => {
+  
   return (
     
       <div className=' w-[1134px] bg-grey-200'>
         <div className='p-12'>
-          <p className='font-bold text-3xl'>Building Construction</p>
+          <p className='font-bold text-3xl'>{props.heading}</p>
           <div className='h-1 bg-yellow-500 w-[3rem] my-6'></div>
           <p className='text-gray-800'>
             Lectus erat, consectetur eu sapien eget rhoncus consectetur sem.
