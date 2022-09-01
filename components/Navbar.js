@@ -14,7 +14,7 @@ export default function Navbar() {
         <Link href="/Services">Services</Link>
         <Link href="/Contact">Contact</Link>
         <Link href="/About">About</Link>
-        <p>Home</p>
+        <Link href="/Home">Home</Link>
         <Image
           className=""
           width={24}

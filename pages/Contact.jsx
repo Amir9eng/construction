@@ -2,12 +2,11 @@ import Image from 'next/image'
 import React from 'react'
 import styles from '../styles/Home.module.css'
 import Accordion from '../components/Accordion'
-import Navbar from '../components/Navbar'
+import Nav from './../layouts/Nav'
 
 const Contact = () => {
   return (
-    <main>
-      <Navbar />
+    <Nav>
       <Image
         alt='portfolio'
         width={1435}
@@ -68,7 +67,7 @@ const Contact = () => {
           referrerPolicy='no-referrer-when-downgrade'
         ></iframe>
       </section>
-    </main>
+    </Nav>
   )
 }
 
