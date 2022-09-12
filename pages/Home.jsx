@@ -14,7 +14,7 @@ const Home = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
             lectus erat consectetur eu sapien eget, rhoncus consectetur sem.
           </p>
-          <button className='text-white bg-yellow-500 px-4 py-2 font-bold'>
+          <button className='text-white bg-yellow-600 px-4 py-2 font-bold'>
             VIEW OUR WORK
           </button>
         </div>
