@@ -33,9 +33,15 @@
     background: rgba(29, 28, 28, 0.9) url("/media/monarch.png");
 }
 
+.saw {
+    background: rgba(29, 28, 29, 0.9) url("/media/Saw.png");
+    height: 40.25rem;
+    width: 100%;
+}
+
 .project {
     display: grid;
-    grid-template-columns: 25% auto;
+    grid-template-columns: 35% auto;
 }
 
 .code {
