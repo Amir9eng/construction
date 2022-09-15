@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 export default function Project (props) {
   return (
-    <section className='flex w-[1000px] mx-auto my-0'>
-      <div className='w-[295px] p-12 mx-auto my-0'>
+    <section className='flex flex-col lg:flex-row w-full lg:w-[62.5rem] mx-auto my-0'>
+      <div className='w-[18.4375rem] p-12 mx-auto my-0'>
         <Image
           className=''
           width={293}
@@ -25,7 +25,7 @@ export default function Project (props) {
         </div>
       </div>
 
-      <div className='w-[295px] p-12 mx-auto my-0'>
+      <div className='w-[18.4375rem] p-12 mx-auto my-0'>
         <Image
           className=''
           width={293}
@@ -45,7 +45,7 @@ export default function Project (props) {
           </button>
         </div>
       </div>
-      <div className='w-[295px] p-12 mx-auto my-0'>
+      <div className='w-[18.4375rem] p-12 mx-auto my-0'>
         <Image
           className=''
           width={293}

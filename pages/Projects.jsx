@@ -7,9 +7,9 @@ import styles from '../styles/Home.module.css'
 export default function Projects () {
   return (
     <DefaultLayout>
-      <div className={`${styles.monarch} w-[1348px] h-[569px]`}>
-        <div className='flex  text-white'>
-          <aside className='w-[694px] px-6 mt-44'>
+      <div className={`${styles.monarch} w-[1348px] h-[569px] relative`}>
+        <div className='absolute flex top-[35%] left-[10%]  text-white'>
+          <aside className='w-[694px]'>
             <p className='text-[64px] font-bold border-l-[8px] pl-3  border-yellow-500'>
               Monarch HQ Project
             </p>
@@ -18,7 +18,7 @@ export default function Projects () {
               egestas pellentesque libero dolor in diam consequat ut.
             </p>
           </aside>
-          <aside className='ml-10 mt-44'>
+          <aside className='ml-12'>
             <p>
               <span className='font-semibold'>Date:</span> 12 April 2018
             </p>
