@@ -3,8 +3,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='flex flex-col lg:flex-row bg-white my-8'>
-      <div className='pl-10 pr-28 w-[55%] bg-yellow-500 '>
+    <footer className='flex flex-col lg:flex-row bg-white my-8 w-full'>
+      <div className='lg:pl-10 lg:pr-28 p-8 lg:w-[55%] bg-yellow-500 w-full'>
         <p className='text-2xl font-bold mt-6 mb-8'>Contact Us</p>
         <input
           type='text'
@@ -15,9 +15,9 @@ const Footer = () => {
           type='text'
           placeholder='Email'
           className='py-2
-        px-6
+        px-12
         bg-white
-        border-solid ml-10'
+        border-solid lg:ml-10'
         />
 
         <textarea

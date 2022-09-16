@@ -19,11 +19,13 @@ export default function Home () {
 
       <Navbar />
       <section className={`${styles.construction}`}>
-        <div className={`pl-[11.1875rem] pt-[5.8125rem] ${styles.description}`}>
-          <h1 className='text-2xl lg:text-5xl font-semibold pl-[1.75rem] text-white border-l-[6px]  border-yellow-500'>
+        <div
+          className={`lg:pl-[11.1875rem] lg:pt-[5.8125rem] ${styles.description}`}
+        >
+          <h1 className='text-2xl md:text-3xl lg:text-5xl font-semibold lg:pl-[1.75rem] text-white border-l-[6px]  border-yellow-500'>
             Construction
           </h1>
-          <p className='text-white w-2/3'>
+          <p className='text-white lg:mt-3 lg:w-2/3'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis
             egestas pellentesque libero dolor in diam consequat ut. Mi nibh amet
             viverra id aliquet neque odio.
@@ -79,7 +81,7 @@ export default function Home () {
         </div>
       </section>
       <main className={styles.main}>
-        <div className=' flex-col gap-8 lg:flex lg:flex-row lg:justify-around my-6'>
+        <div className='flex-col lg:gap-8 lg:flex lg:flex-row lg:justify-around my-6'>
           <p className='text-3xl font-bold'>Get a Quote For Your Project</p>
           <button className='border-4 border-yellow-500 text-yellow-500 px-6 py-2 '>
             FREE QUOTE
@@ -96,12 +98,12 @@ export default function Home () {
           <div className='bg-gray-100'>
             <div className='flex'>
               <div className='py-6 px-10'>
-                <p className='text-3xl font-bold my-4 ml-8'>
+                <p className='text-xl lg:text-3xl font-bold my-4 ml-8'>
                   No Project Too Big Or Too Small
                 </p>
                 <div className='h-1 bg-yellow-500 w-[3rem] my-6 ml-8'></div>
 
-                <p className='block text-gray-400 w-3/5 leading-7 ml-8 my-10 '>
+                <p className='block text-sm lg:text-base text-gray-400 w-3/5 lg:leading-7 ml-8 my-10 '>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Sapien, dignissim tristique tellus sed faucibus nullam.
                   Tincidunt mauris ut quam sed mauris proin feugiat. Scelerisque
@@ -111,7 +113,7 @@ export default function Home () {
                 </p>
               </div>
               <div>
-                <p className='block text-gray-400 leading-7 mt-36 mr-12'>
+                <p className='block text-sm lg:text-base text-gray-400 lg:leading-7 mt-36 mr-12'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Sapien, dignissim tristique tellus sed faucibus nullam.
                   Tincidunt mauris ut quam sed mauris proin feugiat. Scelerisque
@@ -122,7 +124,7 @@ export default function Home () {
                 </button>
               </div>
             </div>
-            <div className='w-full grid grid-cols-2 mt-20'>
+            <div className='w-full grid grid-rows-2 lg:grid-cols-2 mt-20'>
               <div className='bg-yellow-500 text-black py-4 mt-7'>
                 <p className='text-2xl font-bold text-center'>12</p>
                 <p className='text-center'>YEARS ESTABLISHED</p>
@@ -139,13 +141,13 @@ export default function Home () {
         <Project title={'Project Title'} />
 
         <Button />
-        <section className='flex mt-6'>
+        <section className='flex flex-col lg:flex-row mt-6'>
           <div className='w-[440px] bg-black text-white py-12 px-8'>
             <p className='text-3xl font-bold'>
               We’ve Been Building For Over 10 Years
             </p>
             <div className='h-1 bg-yellow-500 w-[3.2rem] my-8'></div>
-            <p className='my-8 leading-[27px] w-[200]'>
+            <p className='my-8 leading-[27px] w-[12.5rem]'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien,
               dignissim tristique tellus sed faucibus nullam. Tincidunt mauris
               ut quam sed mauris proin feugiat. Scelerisque lorem posuere
@@ -177,7 +179,9 @@ export default function Home () {
             </div>
           </div>
         </section>
-        <section className={`${styles.wrapper} w-full`}>
+        <section
+          className={`${styles.wrapper} w-full flex flex-col lg:flex-row`}
+        >
           <div className='w-[345px] py-12 ml-16 mt-10'>
             <p className='text-3xl font-bold my-4 w-[239px] border-b-0 border-yellow-500'>
               Let’s Build Something Together
@@ -193,12 +197,13 @@ export default function Home () {
           </div>
           <Accordion />
         </section>
-        <section>
+        <section className=''>
           <div>
             <p className='text-center text-black text-3xl font-bold my-8'>
               Client Testimonials
             </p>
-            <div className='flex items-center justify-center gap-x-6'>
+            <div className='h-1 bg-yellow-500 w-[3rem] my-3 mx-auto'></div>
+            <div className='flex flex-col lg:flex-row  items-center justify-center gap-x-6'>
               <aside className='w-[311px] h-[305px]'>
                 <div className='flex items-center justify-center my-4'>
                   <Image
@@ -235,25 +240,25 @@ export default function Home () {
               <aside className='w-[311px] h-[305px]'>
                 <div className='flex items-center justify-center my-4'>
                   <Image
-                    alt='start'
+                    alt='star'
                     width={26}
                     height={26}
                     src='/vectors/Star.svg'
                   />
                   <Image
-                    alt='start'
+                    alt='star'
                     width={26}
                     height={26}
                     src='/vectors/Star.svg'
                   />
                   <Image
-                    alt='start'
+                    alt='star'
                     width={26}
                     height={26}
                     src='/vectors/Star.svg'
                   />
                   <Image
-                    alt='start'
+                    alt='star'
                     width={26}
                     height={26}
                     src='/vectors/Star.svg'
@@ -268,25 +273,25 @@ export default function Home () {
               <aside className='w-[311px] h-[305px]'>
                 <div className='flex items-center justify-center my-4'>
                   <Image
-                    alt='start'
+                    alt='star'
                     width={26}
                     height={26}
                     src='/vectors/Star.svg'
                   />
                   <Image
-                    alt='start'
+                    alt='star'
                     width={26}
                     height={26}
                     src='/vectors/Star.svg'
                   />
                   <Image
-                    alt='start'
+                    alt='star'
                     width={26}
                     height={26}
                     src='/vectors/Star.svg'
                   />
                   <Image
-                    alt='start'
+                    alt='star'
                     width={26}
                     height={26}
                     src='/vectors/Star.svg'
@@ -300,15 +305,15 @@ export default function Home () {
               </aside>
             </div>
           </div>
-          <div className='flex items-center justify-center my-10'>
-            <Image
-              alt='Clients'
-              width={1048}
-              height={240}
-              src='/media/Clients.png'
-            />
-          </div>
         </section>
+        <div className='flex items-center justify-center my-10'>
+          <Image
+            alt='Clients'
+            width={'1024px'}
+            height={'240px'}
+            src='/media/Clients.png'
+          />
+        </div>
       </main>
       <Footer />
     </div>
