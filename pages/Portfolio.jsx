@@ -2,7 +2,6 @@ import Image from 'next/image'
 import React from 'react'
 import Card from '../components/Card'
 import Navbar from '../components/Navbar'
-import DefaultLayout from '../layouts/Default'
 
 const Portfolio = () => {
   const data = [
