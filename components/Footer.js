@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='w-2/4'>
-        <div className='bg-black w-full flex items-center justify-center gap-x-12 h-20'>
+        <div className='bg-black w-screen flex items-center justify-center gap-x-12 h-20'>
           {' '}
           <Image
             className=''
