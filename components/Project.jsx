@@ -6,7 +6,7 @@ export default function Project (props) {
       <div className='w-[18.4375rem] p-12 mx-auto my-0'>
         <Image
           className=''
-          width={293}
+          width={294}
           height={182}
           alt='facebook'
           src='/media/bridge.png'
