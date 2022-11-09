@@ -6,7 +6,7 @@ import DefaultLayout from './../layouts/Default'
 const About = () => {
   return (
     <DefaultLayout>
-      <Image alt='portfolio' width={1441} height={569} src='/media/About.png' />
+      <Image alt='portfolio' width={1440} height={569} src='/media/About.png' />
       <Title title={'About us'} />
       <div className='flex justify-center gap-x-8 text-gray-600 mt-8'>
         <aside className='w-[536px]'>
