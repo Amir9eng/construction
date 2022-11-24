@@ -28,7 +28,7 @@ const Contact = () => {
       </div>
       <section className={`${styles.wrapper} px-24`}>
         <div className='w-[380px] py-12  mt-10'>
-          <p className='text-4xl font-bold my-4 w-[239px] border-b-0 border-yellow-500'>
+          <p className='text-3xl font-bold my-4 w-[239px] border-b-0 border-yellow-500'>
             Get In Touch
           </p>
           <div className='h-1 bg-yellow-500 w-[2rem] my-6'></div>
