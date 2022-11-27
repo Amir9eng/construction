@@ -31,7 +31,7 @@ const Contact = () => {
           <p className='text-3xl font-bold my-4 w-[239px] border-b-0 border-yellow-500'>
             Get In Touch
           </p>
-          <div className='h-1 bg-yellow-500 w-[2rem] my-6'></div>
+          <div className='h-1 bg-yellow-500 w-[2.1rem] my-6'></div>
           <div>
             <input
               type='text'
